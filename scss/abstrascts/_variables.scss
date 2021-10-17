@@ -5,30 +5,30 @@
 //Text colors
 $color-just-white: #ffffff;
 $color-soft-orange: #ffe9d4;
-$color-grey: #BABABA:
-$color-warm-black: #201E1C;
+$color-grey: #bababa;
+$color-warm-black: #201e1c;
 $color-grey-dark: #808080;
-$color-orange: #FF9536;
-$color-secundary-blue: #1A9AF7;
+$color-orange: #ff9536;
+$color-secundary-blue: #1a9af7;
 
 //Background colors
 $color-bg-just-white: $color-just-white;
 $color-bg-warm-black: $color-warm-black;
 $color-bg-warm-black-lite: #282623;
 $color-bg-soft-orange: $color-soft-orange;
-$color-bg-bitcoin-orange:#F7931A;
-$color-bg-soft-blue: #E7F5FF;
+$color-bg-bitcoin-orange: #f7931a;
+$color-bg-soft-blue: #e7f5ff;
 
 //Fonts
-$font-principal: 'DM Sans', sans-serif;
-$font-secundaria: 'Inter', sans-serif;     
+$font-principal: "DM Sans", sans-serif;
+$font-secundaria: "Inter", sans-serif;
 
 //Font-sizes
-$font-sizes:(
-    x-samll: 8px,
-    small: 12px,
-    normal: 14px,
-    big: 18px,
-    x-big: 24px,
-    u-big: 52px
+$font-sizes: (
+  x-samll: 8px,
+  small: 12px,
+  normal: 14px,
+  big: 18px,
+  x-big: 24px,
+  u-big: 52px,
 );

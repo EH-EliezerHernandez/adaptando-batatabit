@@ -1,0 +1,8 @@
+/**********************************\
+    $MIXINS
+\**********************************/
+
+@mixin font-size($size-label) {
+  font-size: calcularREM(map-get(font-sizes, $size-label));
+  line-height: calcularREM(map-get(font-sizes, $size-label)) * 1.5;
+}
