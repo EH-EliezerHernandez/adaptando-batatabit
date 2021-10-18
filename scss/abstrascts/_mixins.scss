@@ -16,9 +16,8 @@
   }
 }
 
-@mixin aparence-text($font, $color, $size-label) {
+@mixin aparence-text($font, $size-label, $text-direction) {
   font-family: $font;
-  text-align: center;
-  color: $color;
+  text-align: $text-direction;
   @include font-size($size-label);
 }
