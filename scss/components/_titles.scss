@@ -2,6 +2,19 @@
     $TITLES
 \**********************************/
 
-.title {
-  @include aparence-text($font-principal, $color-just-white, x-big);
+%title {
+  @include aparence-text($font-principal, x-big, center);
+}
+
+.title-- {
+  &header,
+  &tasas {
+    @extend %title;
+  }
+  &header {
+    color: $color-just-white;
+  }
+  &tasas {
+    color: $color-warm-black;
+  }
 }
