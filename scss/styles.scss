@@ -1,2 +1,11 @@
-//Variables, Mixins, Functions(Abstracts)
+//Abstracts
 @import "./abstrascts/variables", "./abstrascts/mixins", "./abstrascts/funtions";
+
+//base
+@import "./base/resets", "./base/helpers";
+
+//Layout
+@import "./layout/header";
+
+//components
+@import "./components/logos", "./components/titles", "./components/descriptions", "./components/buttons";

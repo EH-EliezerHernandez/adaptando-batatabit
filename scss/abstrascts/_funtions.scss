@@ -1,3 +1,7 @@
+/**********************************\
+    $FUNCTIONS
+\**********************************/
+
 @function calcularREM($size) {
   $sizeREM: $size / 16px;
   @return $sizeREM * 1rem;
