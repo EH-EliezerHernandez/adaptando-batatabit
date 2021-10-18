@@ -3,6 +3,22 @@
 \**********************************/
 
 @mixin font-size($size-label) {
-  font-size: calcularREM(map-get(font-sizes, $size-label));
-  line-height: calcularREM(map-get(font-sizes, $size-label)) * 1.5;
+  font-size: calcularREM(map-get($font-sizes, $size-label));
+
+  @if ($size-label == "x-big") {
+    line-height: calcularREM(map-get($line-heights, big));
+  }
+  @if ($size-label == "normal") {
+    line-height: calcularREM(map-get($line-heights, normal));
+  }
+  @if ($size-label == "small") {
+    line-height: calcularREM(map-get($line-heights, small));
+  }
+}
+
+@mixin aparence-text($font, $color, $size-label) {
+  font-family: $font;
+  text-align: center;
+  color: $color;
+  @include font-size($size-label);
 }
