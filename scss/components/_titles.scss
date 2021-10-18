@@ -1,0 +1,7 @@
+/**********************************\
+    $TITLES
+\**********************************/
+
+.title {
+  @include aparence-text($font-principal, $color-just-white, x-big);
+}
