@@ -50,18 +50,9 @@ h1, h2, h3, h4 {
   padding: 40px 0 60px;
   background-image: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
-.header .header__logo-container {
+.header__logo-container {
   text-align: center;
-}
-.header .header__container-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  row-gap: 26px;
+  margin-bottom: 26px;
 }
 
 /**********************************\
@@ -75,23 +66,36 @@ h1, h2, h3, h4 {
 /**********************************\
     $TITLES
 \**********************************/
-.title {
+.title--header, .title--tasas {
   font-family: "DM Sans", sans-serif;
   text-align: center;
-  color: #ffffff;
   font-size: 1.5rem;
   line-height: 1.5rem;
+}
+
+.title--header {
+  color: #ffffff;
+}
+.title--tasas {
+  color: #201e1c;
 }
 
 /**********************************\
     $DESCRIPTIONS
 \**********************************/
-.description {
+.description--header, .description--tasas {
   font-family: "DM Sans", sans-serif;
   text-align: center;
-  color: #ffe9d4;
   font-size: 0.875rem;
   line-height: 1.125rem;
+  margin-top: 26px;
+}
+
+.description--header {
+  color: #ffe9d4;
+}
+.description--tasas {
+  color: #bababa;
 }
 
 /**********************************\
@@ -104,7 +108,6 @@ h1, h2, h3, h4 {
   white-space: nowrap;
   display: inline-block;
   padding: 10px 15px;
-  margin: 20px auto 0;
   font-family: "DM Sans", sans-serif;
   text-align: center;
   color: #201e1c;
