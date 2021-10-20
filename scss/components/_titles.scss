@@ -2,6 +2,27 @@
     $TITLES
 \**********************************/
 
-.title {
-  @include aparence-text($font-principal, $color-just-white, x-big);
+.title-- {
+  &header,
+  &tasas {
+    @include aparence-text($font-principal, x-big, center);
+  }
+  &header {
+    color: $color-just-white;
+  }
+  &tasas {
+    color: $color-warm-black;
+  }
+  &monedas,
+  &comisiones {
+    @include aparence-text($font-principal, big, left);
+  }
+  &monedas {
+    margin-left: 15px;
+    color: $color-orange;
+  }
+  &comisiones {
+    margin-left: 15px;
+    color: $color-secundary-blue;
+  }
 }

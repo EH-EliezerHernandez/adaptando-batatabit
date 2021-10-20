@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__container-info conteiner">
+      <div class="header__container-info">
         <figure class="header__logo-container">
           <img
             src="../assets/img/logo-batatabit.png"
@@ -24,10 +24,10 @@
             class="logo"
           />
         </figure>
-        <h1 class="title">
+        <h1 class="title--header">
           La próxima revolución en el intercambio de criptomonedas.
         </h1>
-        <p class="description">
+        <p class="description--header">
           Batatabit te ayuda a navegar entre los diferentes precios y
           tendencias.
         </p>
@@ -41,5 +41,74 @@
         />
       </a>
     </header>
+    <main class="main">
+      <picture class="main__bitcoin">
+        <source
+          srcset="../assets/img/bitcoin-big.png"
+          media="screen and (min-width: 1200px)"
+        />
+        <img src="../assets/img/bitcoin.png" alt="Bitcoin" />
+      </picture>
+      <div class="main__info">
+        <h2 class="title--tasas">Visibilizamos todas las tasas de cambio.</h2>
+        <p class="description--tasas">
+          Traemos información en tiempo real de las casas de cambio y las
+          monedas más importantes del mundo.
+        </p>
+      </div>
+      <div class="main__tasas">
+        <section class="main__tablas-container">
+          <h3 class="title--monedas">Monedas</h3>
+          <div class="tabla">
+            <p class="tabla__label">Bitcoin</p>
+            <p class="tabla__price">
+              $ 1.96
+              <img
+                src="../assets/icon/trending-down.svg"
+                alt="Imagen price down"
+              />
+            </p>
+            <p class="tabla__label">Ethereum</p>
+            <p class="tabla__price">
+              $ 0.07
+              <img src="../assets/icon/trending-up.svg" alt="Imagen price up" />
+            </p>
+            <p class="tabla__label">Ripple</p>
+            <p class="tabla__price">
+              $ 2.15
+              <img
+                src="../assets/icon/trending-down.svg"
+                alt="Imagen price up"
+              />
+            </p>
+            <p class="tabla__label">Stellar</p>
+            <p class="tabla__price">
+              $ 4.96
+              <img
+                src="../assets/icon/trending-down.svg"
+                alt="Imagen price down"
+              />
+            </p>
+          </div>
+          <p class="update--monedas"><span>Actualizado:</span> 22-11-21</p>
+        </section>
+
+        <section class="main__tablas-container">
+          <h3 class="title--comisiones">Comisiones</h3>
+          <div class="tabla">
+            <p class="tabla__label">Bitrade</p>
+            <p class="tabla__price">$ 12.96</p>
+            <p class="tabla__label">Bitpreco</p>
+            <p class="tabla__price">$ 13.07</p>
+            <p class="tabla__label">Novadax</p>
+            <p class="tabla__price">$ 13.15</p>
+            <p class="tabla__label">Coinext</p>
+            <p class="tabla__price">$ 14.96</p>
+          </div>
+
+          <p class="update--comisiones"><span>Actualizado:</span> 22-11-21</p>
+        </section>
+      </div>
+    </main>
   </body>
 </html>

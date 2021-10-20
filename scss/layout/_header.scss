@@ -6,13 +6,11 @@
   position: relative;
   padding: 40px 0 60px;
   background-image: $color-gd-orange-black;
-
-  .header__logo-container {
-    text-align: center;
+  &__container-info {
+    @extend .conteiner;
   }
-  .header__container-info {
-    display: flex;
-    flex-direction: column;
-    row-gap: 26px;
+  &__logo-container {
+    text-align: center;
+    margin-bottom: 26px;
   }
 }

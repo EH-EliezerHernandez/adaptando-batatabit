@@ -9,14 +9,13 @@
   white-space: nowrap;
   display: inline-block;
   padding: 10px 15px;
-  margin: 20px auto 0;
   font-family: $font-principal;
   text-align: center;
   color: $color-warm-black;
   background-color: #faf8f7;
   border-radius: 4px;
   transform: translate(-50%);
-  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);;
+  box-shadow: $shadow;
   @include font-size(normal);
   img {
     vertical-align: middle;
