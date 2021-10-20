@@ -13,5 +13,15 @@
       top: 30px;
       bottom: 30px;
     }
+    @extend .conteiner;
+  }
+  &__tasas {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    @include media(tablet) {
+      flex-direction: row;
+      column-gap: 26px;
+    }
   }
 }
