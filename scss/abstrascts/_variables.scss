@@ -10,6 +10,8 @@ $color-warm-black: #201e1c;
 $color-grey-dark: #808080;
 $color-orange: #ff9536;
 $color-secundary-blue: #1a9af7;
+$color-grey-lite: #b5b0ac;
+$color-grey-medium: #757575;
 
 //Color Gradients
 $color-gd-orange-black: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
@@ -22,6 +24,7 @@ $color-bg-soft-orange: $color-soft-orange;
 $color-bg-bitcoin-orange: #f7931a;
 $color-bg-soft-blue: #e7f5ff;
 $color-bg-white-shiny: #e5e5e5;
+$color-bg-off-white: #faf8f7;
 
 //Fonts
 $font-principal: "DM Sans", sans-serif;
@@ -32,12 +35,16 @@ $font-sizes: (
   x-samll: 8px,
   small: 12px,
   normal: 14px,
+  default: 16px,
   big: 18px,
   x-big: 24px,
   u-big: 52px,
 );
 
-//Line height
+//shadows
+$shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
+//Line heights
 $line-heights: (
   small: 14.52px,
   normal: 18px,
