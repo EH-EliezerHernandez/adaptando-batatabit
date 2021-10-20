@@ -1,0 +1,24 @@
+/**********************************\
+    $UPDATES
+\**********************************/
+
+.update-- {
+  &monedas,
+  &comisiones {
+    margin: 0 auto;
+    padding: 8px;
+    width: max-content;
+    @extend .caja;
+    @include aparence-text($font-secundaria, small, center);
+  }
+  &monedas span,
+  &comisiones span {
+    font-weight: 700;
+  }
+  &monedas {
+    background-color: $color-bg-soft-orange;
+  }
+  &comisiones {
+    background-color: $color-bg-soft-blue;
+  }
+}
