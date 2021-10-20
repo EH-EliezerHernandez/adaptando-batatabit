@@ -5,7 +5,8 @@
 @import "./base/resets", "./base/helpers";
 
 //Layout
-@import "./layout/header";
+@import "./layout/header", "./layout/main";
 
 //components
-@import "./components/logos", "./components/titles", "./components/descriptions", "./components/buttons";
+@import "./components/logos", "./components/titles", "./components/descriptions",
+  "./components/buttons", "./components/tablas";
