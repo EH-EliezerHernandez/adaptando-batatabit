@@ -1,0 +1,52 @@
+/**********************************\
+    $VARIABLES
+\**********************************/
+
+//Text colors
+$color-just-white: #ffffff;
+$color-soft-orange: #ffe9d4;
+$color-grey: #bababa;
+$color-warm-black: #201e1c;
+$color-grey-dark: #808080;
+$color-orange: #ff9536;
+$color-secundary-blue: #1a9af7;
+$color-grey-lite: #b5b0ac;
+$color-grey-medium: #757575;
+
+//Color Gradients
+$color-gd-orange-black: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+
+//Background colors
+$color-bg-just-white: $color-just-white;
+$color-bg-warm-black: $color-warm-black;
+$color-bg-warm-black-lite: #282623;
+$color-bg-soft-orange: $color-soft-orange;
+$color-bg-bitcoin-orange: #f7931a;
+$color-bg-soft-blue: #e7f5ff;
+$color-bg-white-shiny: #e5e5e5;
+$color-bg-off-white: #faf8f7;
+
+//Fonts
+$font-principal: "DM Sans", sans-serif;
+$font-secundaria: "Inter", sans-serif;
+
+//Font-sizes
+$font-sizes: (
+  x-samll: 8px,
+  small: 12px,
+  normal: 14px,
+  default: 16px,
+  big: 18px,
+  x-big: 24px,
+  u-big: 52px,
+);
+
+//shadows
+$shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
+//Line heights
+$line-heights: (
+  small: 14.52px,
+  normal: 18px,
+  big: 24px,
+);

@@ -1,0 +1,23 @@
+/**********************************\
+    $BUTTONS
+\**********************************/
+
+.button--to-planes {
+  position: absolute;
+  left: 50%;
+  bottom: -16px;
+  white-space: nowrap;
+  display: inline-block;
+  padding: 10px 15px;
+  font-family: $font-principal;
+  text-align: center;
+  color: $color-warm-black;
+  background-color: #faf8f7;
+  border-radius: 4px;
+  transform: translate(-50%);
+  box-shadow: $shadow;
+  @include font-size(normal);
+  img {
+    vertical-align: middle;
+  }
+}

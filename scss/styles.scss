@@ -1,0 +1,12 @@
+//Abstracts
+@import "./abstrascts/variables", "./abstrascts/mixins", "./abstrascts/funtions";
+
+//base
+@import "./base/resets", "./base/helpers";
+
+//Layout
+@import "./layout/header", "./layout/mains";
+
+//components
+@import "./components/logos", "./components/titles", "./components/descriptions",
+  "./components/buttons", "./components/tablas", "./components/updates";

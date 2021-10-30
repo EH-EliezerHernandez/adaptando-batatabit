@@ -1,0 +1,23 @@
+/**********************************\
+    $DESCRIPTIONS
+\**********************************/
+
+%description {
+  @include aparence-text($font-principal, normal, center);
+  margin-top: 26px;
+}
+
+.description-- {
+  &header,
+  &tasas {
+    @extend %description;
+  }
+
+  &header {
+    color: $color-soft-orange;
+  }
+
+  &tasas {
+    color: $color-grey;
+  }
+}
