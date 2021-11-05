@@ -16,9 +16,9 @@
     font-weight: 700;
   }
   &monedas {
-    background-color: $color-bg-soft-orange;
+    background-color: map-get($background-colors, soft-orange);
   }
   &comisiones {
-    background-color: $color-bg-soft-blue;
+    background-color: map-get($background-colors, soft-blue);
   }
 }

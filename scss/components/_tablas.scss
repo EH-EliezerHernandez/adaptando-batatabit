@@ -4,7 +4,7 @@
 .tabla {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: $color-just-white;
+  background-color: map-get($palett, just-white);
   box-shadow: $shadow;
   margin: {
     top: 14px;
@@ -15,7 +15,7 @@
   &__price {
     font-family: $font-principal;
     padding: 12px;
-    border-bottom: 2px solid $color-bg-off-white;
+    border-bottom: 2px solid map-get($background-colors, off-white);
   }
   &__label:last-of-type,
   &__price:last-of-type {
@@ -23,17 +23,17 @@
   }
   &__label {
     font-size: map-get($font-sizes, default);
-    color: $color-grey-lite;
+    color: map-get($palett, grey-lite);
   }
   &__label:nth-child(2n + 1) {
-    border-right: 2px solid $color-bg-off-white;
+    border-right: 2px solid map-get($background-colors, off-white);
   }
   &__price {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: map-get($font-sizes, normal);
-    color: $color-grey-medium;
+    color: map-get($palett, grey-medium);
   }
   &__price img {
     height: 12px;

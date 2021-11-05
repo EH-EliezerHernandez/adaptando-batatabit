@@ -14,10 +14,10 @@
   }
 
   &header {
-    color: $color-soft-orange;
+    color: map-get($palett, soft-orange);
   }
 
   &tasas {
-    color: $color-grey;
+    color: map-get($palett, grey);
   }
 }

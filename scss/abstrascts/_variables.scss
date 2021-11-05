@@ -3,28 +3,32 @@
 \**********************************/
 
 //Text colors
-$color-just-white: #ffffff;
-$color-soft-orange: #ffe9d4;
-$color-grey: #bababa;
-$color-warm-black: #201e1c;
-$color-grey-dark: #808080;
-$color-orange: #ff9536;
-$color-secundary-blue: #1a9af7;
-$color-grey-lite: #b5b0ac;
-$color-grey-medium: #757575;
+$palett: (
+  just-white: #ffffff,
+  soft-orange: #ffe9d4,
+  grey: #bababa,
+  warm-black: #201e1c,
+  grey-dark: #808080,
+  orange: #ff9536,
+  secundary-blue: #1a9af7,
+  grey-lite: #b5b0ac,
+  grey-medium: #757575,
+);
 
 //Color Gradients
 $color-gd-orange-black: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 
 //Background colors
-$color-bg-just-white: $color-just-white;
-$color-bg-warm-black: $color-warm-black;
-$color-bg-warm-black-lite: #282623;
-$color-bg-soft-orange: $color-soft-orange;
-$color-bg-bitcoin-orange: #f7931a;
-$color-bg-soft-blue: #e7f5ff;
-$color-bg-white-shiny: #e5e5e5;
-$color-bg-off-white: #faf8f7;
+$background-colors: (
+  just-white: map-get($palett, just-white),
+  warm-black: map-get($palett, warm-black),
+  warm-black-lite: #282623,
+  soft-orange: map-get($palett, soft-orange),
+  bitcoin-orange: #f7931a,
+  soft-blue: #e7f5ff,
+  white-shiny: #e5e5e5,
+  off-white: #faf8f7,
+);
 
 //Fonts
 $font-principal: "DM Sans", sans-serif;

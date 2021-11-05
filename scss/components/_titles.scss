@@ -8,10 +8,10 @@
     @include aparence-text($font-principal, x-big, center);
   }
   &header {
-    color: $color-just-white;
+    color: map-get($palett, just-white);
   }
   &tasas {
-    color: $color-warm-black;
+    color: map-get($palett, warm-black);
   }
   &monedas,
   &comisiones {
@@ -19,10 +19,10 @@
   }
   &monedas {
     margin-left: 15px;
-    color: $color-orange;
+    color: map-get($palett, orange);
   }
   &comisiones {
     margin-left: 15px;
-    color: $color-secundary-blue;
+    color: map-get($palett, secundary-blue);
   }
 }
